@@ -1,0 +1,114 @@
+/**index.wxss**/
+
+.slider {
+    width: 650rpx;
+    margin: 0rpx auto;
+    display: inline-block;
+    transform:translateY(-50rpx)
+}
+
+.task_text {
+    text-align: center;
+    height: 120rpx;
+    margin: 0 auto;
+    display: inline-block;
+    transform:translateY(-5rpx)
+}
+
+.task_text .task_title {
+    font-size:35rpx;
+    height: 70rpx;
+    line-height:70rpx;
+}
+
+.task_text .task_desc {
+    font-size:30rpx;
+    height:50rpx;
+    line-height:50rpx;
+    color:#999;
+}
+
+.task_cate {
+    width:660rpx;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 40rpx auto;
+}
+
+.task_cate .cate_item {
+    width:220rpx;
+    height:130rpx;
+    text-align: center;
+    margin-bottom: 50rpx;
+}
+
+.task_cate .cate_icon {
+    height:70rpx;
+}
+
+.task_cate .cate_icon image {
+    height:50rpx;
+    width:50rpx;
+}
+
+.task_cate .cate_text {
+    height:60rpx;
+    font-size:30rpx;
+}
+
+.startButton {
+   width:280rpx;
+    height:90rpx;
+    line-height: 90rpx;
+    border:5rpx solid #ff5556;
+    color:#ff5556;
+    border-radius: 20rpx;
+    margin: 40rpx auto;
+    text-align: center;
+    display: inline-block;
+    transform:translateY(-60rpx)
+}
+
+.cate_text_active {
+    color: #ff5556;
+}
+
+.clock {
+    overflow:hidden;
+    background-color: #ff5556;
+}
+
+.progress {
+    height:400rpx;
+    width:400rpx;
+    margin:140rpx auto;
+    position:relative;
+}
+
+.progress .progress_bg,.progress .progress_active {
+    width:400rpx;
+    height:400rpx;
+    position:absolute;
+}
+
+.progress .progress_text {
+    width:160rpx;
+    height:60rpx;
+    color:#fff;
+    position:absolute;
+    text-align:center;
+    top:170rpx;
+    left:120rpx;
+}
+
+.Btns .okBtn,.Btns .pauseBtn,.Btns .continueBtn ,.Btns .cancleBtn {
+      text-align: center;
+      width:280rpx;
+      height:80rpx;
+      line-height:80rpx;
+      color:#fff;
+      border:3rpx solid #fff;
+      border-radius: 20rpx;
+      margin:0 auto 20rpx auto;
+      color:#fff
+    }

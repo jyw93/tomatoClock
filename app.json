@@ -1,0 +1,33 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "番茄Clock",
+        "navigationBarBackgroundColor": "#ff5556",
+        "backgroundColor": "#F8F8F8"
+      },
+    "tabBar": {
+        "selectedColor": "#ff5556",
+         "color":"#e2c7c7",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./static/clock_copy.png",
+                "selectedIconPath": "./static/clock.png"
+               
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "设置",
+                "iconPath": "./static/shezhi_copy.png",
+                "selectedIconPath": "./static/shezhi.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
